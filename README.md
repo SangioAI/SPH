@@ -15,26 +15,25 @@ For this project are available:
 > The `make` command must be run in the *src* folder.
 
 ## OpenMP versions
-To build all OpenMP versions:
-    `make openmp`
+To build all OpenMP versions: `make openmp`
     
 To build them indipendently:
-    ```
+<br/>
+```
     gcc -std=c99 -fopenmp -Wall -Wpedantic omp-sph.c -o omp-sph -lm
     gcc -std=c99 -fopenmp -Wall -Wpedantic omp-sphv2.c -o omp-sph -lm
     gcc -std=c99 -fopenmp -Wall -Wpedantic omp-sphv3.c -o omp-sph -lm
     gcc -std=c99 -fopenmp -Wall -Wpedantic omp-sphv4.c -o omp-sph -lm
-    ```
+```
 
 ## CUDA versions
-Per compilare tutti i programmi CUDA:
-    `make cuda`
+To build all CUDA versions: `make cuda`
     
 In alternativa:
-    ```
+```
     nvcc cuda-sph.cu -o cuda-sph
     nvcc cuda-sphv2.cu -o cuda-sphv2
-    ```
+```
 # Results
 
 See the [Report](Report.pdf).
