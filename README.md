@@ -37,5 +37,9 @@ In alternativa:
 # Results
 
 See the [Report](Report.pdf).
-------
+
+## Authors
+
+[Marco Sangiorgi](https://github.com/SangioAI)
+</br>
 *2023©*
