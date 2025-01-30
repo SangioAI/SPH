@@ -37,3 +37,5 @@ In alternativa:
 # Results
 
 See the [Report](Report.pdf).
+------
+*2023©*
